@@ -6,7 +6,7 @@ JDK 1.7 or higher.
 
 To add a dependency on Guava using Maven, use the following:
 
-```
+```xml
 <dependency>
   <groupId>com.wenger.wava</groupId>
   <artifactId>wava</artifactId>
