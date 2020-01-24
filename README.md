@@ -4,7 +4,7 @@ JDK 1.7 or higher.
 
 ## Getting Started
 
-To add a dependency on Guava using Maven, use the following:
+To add a dependency on Wava using Maven, use the following:
 
 ```xml
 <dependency>
