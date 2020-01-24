@@ -3,13 +3,16 @@ package wava.collections;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
 
 /**
- * MapUtil
+ * This class consists of static methods that operate on or return collections.
  */
 public final class MapUtils {
     public static final int ASC = 1;
@@ -77,5 +80,36 @@ public final class MapUtils {
         for (Entry<K, V> e: list)
             s.put(e.getKey(), e.getValue());
         return s;
+    }
+
+    /**
+     * Checks if a map is reversible i.e. verifies that all values are unique.
+     * 
+     * @param m the map to be checked
+     * @return true if the map is reversible, false otherwise
+     */
+    public static <K, V> boolean isReversible(Map<K, V> m) {
+        Set<V> s= new HashSet<>();
+        for (V v : m.values()) {
+            if (s.contains(v))
+                return false;
+            s.add(v);
+        }
+        return true;
+    }
+
+    /**
+     * Reverses the given map if it is reversible.
+     * 
+     * @param m the map to reverse
+     * @return the reversed map or null if the map is not reversible
+     */
+    public static <K, V> Map<V, K> reverse(Map<K, V> m) {
+        if (!isReversible(m))
+            return null;
+        Map<V, K> inv = new HashMap<>();
+        for (Entry<K, V> e : m.entrySet())
+            inv.put(e.getValue(), e.getKey());
+        return inv;
     }
 }

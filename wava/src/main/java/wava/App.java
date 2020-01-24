@@ -7,10 +7,10 @@ import wava.collections.MapUtils;
 
 public class App {
     public static void main(String[] args) {
-        Map<Integer, Integer> map = new HashMap<>();
-        map.put(1, 2);
-        map.put(2,1);
-        Map<Integer, Integer> sortedMap = MapUtils.sortByValue(map, MapUtils.DESC);
-        System.out.println(sortedMap);
+        Map<Integer, String> map = new HashMap<>();
+        map.put(1, "hello");
+        map.put(2, "world");
+        Map<String, Integer> rev = MapUtils.reverse(map);
+        System.out.println(rev);
     }
 }
