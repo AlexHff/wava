@@ -1,5 +1,6 @@
 # wava
-Core libraries for Java. JDK 1.7 or higher.
+Core library for Java.\
+JDK 1.7 or higher.
 
 ## Getting Started
 
@@ -29,5 +30,5 @@ See also the list of [contributors](https://github.com/AlexHff/wava/graphs/contr
 
 ## License
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
