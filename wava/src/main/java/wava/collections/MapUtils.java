@@ -12,7 +12,7 @@ import java.util.Map.Entry;
 import java.util.Set;
 
 /**
- * This class consists of static methods that operate on or return collections.
+ * This class consists of static methods that operate on or return maps.
  */
 public final class MapUtils {
     public static final int ASC = 1;
