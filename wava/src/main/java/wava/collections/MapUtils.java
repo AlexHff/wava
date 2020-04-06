@@ -18,6 +18,8 @@ public final class MapUtils {
     public static final int ASC = 1;
     public static final int DESC = 2;
 
+    private MapUtils() {}
+
     /**
      * Sorts the specified map into ascending order, according to the Comparable
      * natural ordering of its values. All elements in the map value set must
