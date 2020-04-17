@@ -8,7 +8,7 @@ import java.util.Map;
 
 import org.junit.Test;
 
-import wava.collections.MapUtils;
+import wava.utils.MapUtils;
 
 /**
  * Unit test for MapUtils.

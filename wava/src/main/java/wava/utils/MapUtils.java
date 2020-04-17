@@ -1,4 +1,4 @@
-package wava.collections;
+package wava.utils;
 
 import java.util.ArrayList;
 import java.util.Collections;
