@@ -1,22 +1,10 @@
 # wava
-Core library for Java.\
-JDK 1.7 or higher.
+Wava is a small collection of general-purpose utility classes with wide applicability. It provides an architecture to store and manipulate data structures.
 
-## Getting Started
+## Important information
 
-To add a dependency on Wava using Maven, use the following:
-
-```xml
-<dependency>
-  <groupId>com.wenger.wava</groupId>
-  <artifactId>wava</artifactId>
-  <version>1.0-SNAPSHOT</version>
-</dependency>
-```
-
-## Built With
-
-* [Maven](https://maven.apache.org/) - Dependency Management
+The wava library is an experiment and a work in progress. Features are missing and not yet implemented.<br/>
+Feel free to open issues for any ideas you might have.
 
 ## Contributing
 
