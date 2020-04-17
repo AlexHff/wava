@@ -91,7 +91,7 @@ public final class MapUtils {
      * @return true if the map is reversible, false otherwise
      */
     public static <K, V> boolean isReversible(Map<K, V> m) {
-        Set<V> s= new HashSet<>();
+        Set<V> s = new HashSet<>();
         for (V v : m.values()) {
             if (s.contains(v))
                 return false;
