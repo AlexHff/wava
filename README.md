@@ -1,4 +1,4 @@
-# wava
+# wava [![CodeFactor](https://www.codefactor.io/repository/github/alexhff/wava/badge)](https://www.codefactor.io/repository/github/alexhff/wava)
 Wava is a small collection of general-purpose utility classes with wide applicability. It provides an architecture to store and manipulate data structures.
 
 ## Important information
