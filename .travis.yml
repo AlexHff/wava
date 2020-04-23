@@ -2,7 +2,7 @@ sudo: false
 language: java
 install: true
 jdk: oraclejdk11
-before_script: cd project
+before_script: cd wava
 script:
   - mvn install
 after_success:
