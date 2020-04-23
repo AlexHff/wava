@@ -1,3 +1,4 @@
+sudo: false
 language: java
 install: true
 jdk: oraclejdk11
@@ -5,3 +6,6 @@ script:
   - mvn install
 after_success:
   - mvn clean test jacoco:report coveralls:report
+env:
+  matrix:
+    - ROOT_POM="wava/pom.xml"
